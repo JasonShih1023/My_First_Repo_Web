@@ -1,0 +1,88 @@
+nav {
+    height: 80px;
+    background-color: lightblue;
+}
+.inline-block {
+    padding: 35px;
+    display: inline-block;
+
+}
+/* Header categories float to the right with no reverse */
+.block_elements { 
+    float: right;
+
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Hero photo */
+.hero-image {
+    background-image: url("Photos/MaxPatch.JPG");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+}
+.relative {
+    position: relative;
+    background-color: #D5EAE4;
+    height: 80%; 
+    display: flex;
+    padding: 5%;    
+}
+.dot {
+    width: 250px;
+    height: 250px;
+    background-color: #00BAAC;
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    left: 25%;
+    
+}
+.right {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 30%;
+    right: -25%;
+}
+img {
+    border-radius: 0%;
+    position: relative;
+    top: 30%;
+    left:0%;
+    border: 0px solid #00BAAC;  
+}
+.responsive {
+    max-height: 350px;
+    height: auto;
+    width: auto;
+}
+.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: relative;
+    left:20%;
+  }
+  .container {
+    text-align: center;
+    padding: 20px 20px;
+   
+    
+  }
